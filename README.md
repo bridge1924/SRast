@@ -1,9 +1,8 @@
 # SRast Core (Training + Inference)
 
-This repository contains the minimal runnable SRast pipeline for:
-- Stage 1 training (`GraphVAE`): train encoder/decoder and save latent features.
-- Stage 2 training (`Flow Matching`): train the super-resolution model.
-- Inference: generate high-resolution predictions and evaluate metrics.
+SRast is a physically constrained generalist framework for spatial transcriptomics super-resolution that improves zero-shot generalization across species, tissues, and platforms. It decouples gene semantic representation from spatial geometry deconvolution and predicts simplex ratios with an optimal transport flow-matching model to enforce local mass conservation.
+
+![SRast framework](pics/Srast.jpeg)
 
 ## Project Structure
 
