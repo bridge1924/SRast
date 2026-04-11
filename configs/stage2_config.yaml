@@ -1,0 +1,147 @@
+
+data_config: configs/data_config_4x.yaml
+
+data_scale: "4x"
+
+stage1_dir: /home/hxl/SRast_v5/checkpoints/stage1
+
+use_latent_norm: true
+
+paths:
+  output_dir: checkpoints/stage2/flow_matching
+  experiments_dir: results/experiments
+
+training:
+  device: auto
+  num_workers: 2
+  log_every: 10
+
+flow_matching:
+
+  hidden_dim: 256
+  num_heads: 8
+  num_layers: 6
+  dropout: 0.1
+  
+  use_dit: true
+  mlp_ratio: 4.0
+  
+  use_hr_spatial: true
+  num_hr_neighbors: 6
+  
+  num_steps: 50
+  sigma_min: 0.001
+  
+  epochs: 1000
+  batch_size: 1024
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  
+  time_sampling:
+    strategy: 'uniform'
+    importance_beta: 2.0
+  
+  velocity_loss:
+    enabled: true
+    weight: 1.0
+  
+  kd_loss:
+    enabled: true
+    weight: 1.0
+    temperature: 2.0
+  
+  scheduler:
+    type: cosine
+    t_max: null
+    eta_min: 1.0e-6
+    warmup_epochs: 5
+  
+  early_stopping:
+    enabled: true
+    patience: 50
+    min_delta: 0.0001
+    monitor: 'train_loss'
+    verbose: true
+  
+  validate_interval: 5
+  validate_batches: 5
+  validation_steps: 100
+  
+  max_hr_per_lr: 16
+
+graph:
+  spatial_k: 6
+  feature_k: 10
+
+memory_optimization:
+
+  max_hr_spots_per_sample: 20000
+
+  lazy_load_threshold: 20000
+
+  spatial_uniform_sampling: true
+
+  print_memory_estimate: true
+
+training_datasets:
+
+  - CRC_s6_rep1
+  - CRC_s6_rep2
+
+  - HT_slice1
+  - HT_slice2
+  - HT_slice3 
+
+  - Mouse_Brain_ATAC
+  - Mouse_Brain_H3K27ac
+  - Mouse_Brain_H3K27me3
+
+  - Mouse_Thymus_1
+  - Mouse_Thymus_2
+  - Mouse_Thymus_3
+  - Mouse_Thymus_4
+     
+  - TNBC_1142243F
+  - TNBC_1160920F
+  - TNBC_CID4290
+  - TNBC_CID4465
+  - TNBC_CID44971
+  - TNBC_CID4535   
+
+  - DLPFC_151507
+  - DLPFC_151508
+  - DLPFC_151509
+  - DLPFC_151510
+  - DLPFC_151669
+  - DLPFC_151670
+  - DLPFC_151671
+  - DLPFC_151672
+  - DLPFC_151673     
+  - DLPFC_151674
+  - DLPFC_151675
+  - DLPFC_151676
+
+  - Mouse_Brain_Anterior
+  - Human_Breast_Cancer
+  - Human_Lymph_Node_New
+
+  - Mouse_Olfactory  
+
+  - Mouse_Spleen_1
+  - Mouse_Spleen_2
+
+  - Spa_Human_Breast_Cancer
+  - Human_Glioblastoma
+  - Human_Tonsil
+  - Human_Tonsil_AddOns
+
+  - MouseBrain_P7_bin50
+  - MouseBrain_P7_singlecell
+
+  - SZPH_F24_00288
+
+test_datasets:
+
+  - HLN_D1             
+  - HLN_A1
+

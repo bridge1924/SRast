@@ -1,0 +1,546 @@
+
+datasets:
+
+  HLN_A1:
+    name: "Human Lymph Node A1"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HLN/Dataset11_Human_Lymph_Node_A1/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HLN/Dataset11_Human_Lymph_Node_A1/adata_RNA_HR.h5ad"
+    group: "HLN"
+    
+  HLN_D1:
+    name: "Human Lymph Node D1"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HLN/Dataset12_Human_Lymph_Node_D1/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HLN/Dataset12_Human_Lymph_Node_D1/adata_RNA_HR.h5ad"
+    group: "HLN"
+
+  Mouse_Thymus_1:
+    name: "Mouse Thymus 1"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset3_Mouse_Thymus1/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset3_Mouse_Thymus1/adata_RNA_HR.h5ad"
+    group: "Mouse_Thymus"
+    
+  Mouse_Thymus_2:
+    name: "Mouse Thymus 2"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset4_Mouse_Thymus2/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset4_Mouse_Thymus2/adata_RNA_HR.h5ad"
+    group: "Mouse_Thymus"
+    
+  Mouse_Thymus_3:
+    name: "Mouse Thymus 3"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset5_Mouse_Thymus3/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset5_Mouse_Thymus3/adata_RNA_HR.h5ad"
+    group: "Mouse_Thymus"
+    
+  Mouse_Thymus_4:
+    name: "Mouse Thymus 4"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset6_Mouse_Thymus4/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Thymus/Dataset6_Mouse_Thymus4/adata_RNA_HR.h5ad"
+    group: "Mouse_Thymus"
+
+  Mouse_Brain_ATAC:
+    name: "Mouse Brain ATAC"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset7_Mouse_Brain_ATAC/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset7_Mouse_Brain_ATAC/adata_RNA_HR.h5ad"
+    group: "Mouse_Brain"
+    
+  Mouse_Brain_H3K4me3:
+    name: "Mouse Brain H3K4me3"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset8_Mouse_Brain_H3K4me3/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset8_Mouse_Brain_H3K4me3/adata_RNA_HR.h5ad"
+    group: "Mouse_Brain"
+    
+  Mouse_Brain_H3K27ac:
+    name: "Mouse Brain H3K27ac"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset9_Mouse_Brain_H3K27ac/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset9_Mouse_Brain_H3K27ac/adata_RNA_HR.h5ad"
+    group: "Mouse_Brain"
+    
+  Mouse_Brain_H3K27me3:
+    name: "Mouse Brain H3K27me3"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset10_Mouse_Brain_H3K27me3/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain/Dataset10_Mouse_Brain_H3K27me3/adata_RNA_HR.h5ad"
+    group: "Mouse_Brain"
+  
+  HT_slice1:
+    name: "HT Slice 1"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HT/slice1/s1_adata_rna_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HT/slice1/s1_adata_rna_HR.h5ad"
+    group: "HT"
+    
+  HT_slice2:
+    name: "HT Slice 2"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HT/slice2/s2_adata_rna_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HT/slice2/s2_adata_rna_HR.h5ad"
+    group: "HT"
+    
+  HT_slice3:
+    name: "HT Slice 3"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HT/slice3/s3_adata_rna_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HT/slice3/s3_adata_rna_HR.h5ad"
+    group: "HT"
+
+  MISAR_S1_E11:
+    name: "MISAR S1 E11 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E11/MISAR_S1_E11_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E11/MISAR_S1_E11_RNA_HR.h5ad"
+    group: "MISAR_S1"
+    
+  MISAR_S1_E13:
+    name: "MISAR S1 E13 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E13/MISAR_S1_E13_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E13/MISAR_S1_E13_RNA_HR.h5ad"
+    group: "MISAR_S1"
+    
+  MISAR_S1_E15:
+    name: "MISAR S1 E15 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E15/MISAR_S1_E15_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E15/MISAR_S1_E15_RNA_HR.h5ad"
+    group: "MISAR_S1"
+    
+  MISAR_S1_E18:
+    name: "MISAR S1 E18 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E18/MISAR_S1_E18_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S1/E18/MISAR_S1_E18_RNA_HR.h5ad"
+    group: "MISAR_S1"
+
+  MISAR_S2_E11:
+    name: "MISAR S2 E11 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E11/MISAR_S2_E11_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E11/MISAR_S2_E11_RNA_HR.h5ad"
+    group: "MISAR_S2"
+    
+  MISAR_S2_E13:
+    name: "MISAR S2 E13 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E13/MISAR_S2_E13_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E13/MISAR_S2_E13_RNA_HR.h5ad"
+    group: "MISAR_S2"
+    
+  MISAR_S2_E15:
+    name: "MISAR S2 E15 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E15/MISAR_S2_E15_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E15/MISAR_S2_E15_RNA_HR.h5ad"
+    group: "MISAR_S2"
+    
+  MISAR_S2_E18:
+    name: "MISAR S2 E18 RNA"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E18/MISAR_S2_E18_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MISAR/S2/E18/MISAR_S2_E18_RNA_HR.h5ad"
+    group: "MISAR_S2"
+
+  Mouse_Spleen_1:
+    name: "Mouse Spleen 1"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_slpeen/Dataset1_Mouse_Spleen1/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_slpeen/Dataset1_Mouse_Spleen1/adata_RNA_HR.h5ad"
+    group: "Mouse_Spleen"
+    
+  Mouse_Spleen_2:
+    name: "Mouse Spleen 2"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_slpeen/Dataset2_Mouse_Spleen2/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_slpeen/Dataset2_Mouse_Spleen2/adata_RNA_HR.h5ad"
+    group: "Mouse_Spleen"
+
+  HPR_Sample25:
+    name: "HPR Sample 25"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample25/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample25/adata_RNA_HR.h5ad"
+    group: "HPR"
+    
+  HPR_Sample26:
+    name: "HPR Sample 26"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample26/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample26/adata_RNA_HR.h5ad"
+    group: "HPR"
+    
+  HPR_Sample27:
+    name: "HPR Sample 27"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample27/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample27/adata_RNA_HR.h5ad"
+    group: "HPR"
+    
+  HPR_Sample28:
+    name: "HPR Sample 28"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample28/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample28/adata_RNA_HR.h5ad"
+    group: "HPR"
+    
+  HPR_Sample29:
+    name: "HPR Sample 29"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample29/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/HPR/Sample29/adata_RNA_HR.h5ad"
+    group: "HPR"
+
+  mPFC_BZ5:
+    name: "mPFC BZ5"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/mPFC/BZ5/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/mPFC/BZ5/adata_RNA_HR.h5ad"
+    group: "mPFC"
+    
+  mPFC_BZ9:
+    name: "mPFC BZ9"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/mPFC/BZ9/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/mPFC/BZ9/adata_RNA_HR.h5ad"
+    group: "mPFC"
+    
+  mPFC_BZ14:
+    name: "mPFC BZ14"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/mPFC/BZ14/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/mPFC/BZ14/adata_RNA_HR.h5ad"
+    group: "mPFC"
+
+  CRC_s6_rep1:
+    name: "CRC s6 rep1"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/CRC/s6_rep1/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/CRC/s6_rep1/adata_RNA_HR.h5ad"
+    group: "CRC"
+    
+  CRC_s6_rep2:
+    name: "CRC s6 rep2"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/CRC/s6_rep2/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/CRC/s6_rep2/adata_RNA_HR.h5ad"
+    group: "CRC"
+
+  TNBC_CID4290:
+    name: "TNBC CID4290"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID4290/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID4290/adata_RNA_HR.h5ad"
+    group: "TNBC"
+    
+  TNBC_CID4465:
+    name: "TNBC CID4465"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID4465/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID4465/adata_RNA_HR.h5ad"
+    group: "TNBC"
+    
+  TNBC_CID44971:
+    name: "TNBC CID44971"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID44971/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID44971/adata_RNA_HR.h5ad"
+    group: "TNBC"
+    
+  TNBC_CID4535:
+    name: "TNBC CID4535"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID4535/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/CID4535/adata_RNA_HR.h5ad"
+    group: "TNBC"
+    
+  TNBC_1142243F:
+    name: "TNBC 1142243F"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/1142243F/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/1142243F/adata_RNA_HR.h5ad"
+    group: "TNBC"
+    
+  TNBC_1160920F:
+    name: "TNBC 1160920F"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/1160920F/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/TNBC/1160920F/adata_RNA_HR.h5ad"
+    group: "TNBC"
+
+  DLPFC_151507:
+    name: "DLPFC 151507"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151507/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151507/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151508:
+    name: "DLPFC 151508"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151508/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151508/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151509:
+    name: "DLPFC 151509"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151509/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151509/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151510:
+    name: "DLPFC 151510"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151510/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151510/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151669:
+    name: "DLPFC 151669"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151669/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151669/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151670:
+    name: "DLPFC 151670"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151670/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151670/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151671:
+    name: "DLPFC 151671"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151671/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151671/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151672:
+    name: "DLPFC 151672"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151672/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151672/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151673:
+    name: "DLPFC 151673"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151673/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151673/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151674:
+    name: "DLPFC 151674"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151674/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151674/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151675:
+    name: "DLPFC 151675"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151675/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151675/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+    
+  DLPFC_151676:
+    name: "DLPFC 151676"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151676/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/DLPFC/151676/adata_RNA_HR.h5ad"
+    group: "DLPFC"
+
+  Mouse_Brain_Anterior:
+    name: "Mouse Brain Anterior"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain_Anterior/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Brain_Anterior/adata_RNA_HR.h5ad"
+    group: "Mouse_Brain_Anterior"
+
+  Human_Breast_Cancer:
+    name: "Human Breast Cancer"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Breast_Cancer/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Breast_Cancer/adata_RNA_HR.h5ad"
+    group: "Human_Breast_Cancer"
+
+  Human_Lymph_Node_New:
+    name: "Human Lymph Node New"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Lymph_Node_New/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Lymph_Node_New/adata_RNA_HR.h5ad"
+    group: "Human_Lymph_Node_New"
+
+  Mouse_Olfactory:
+    name: "Mouse Olfactory"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Olfactory/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Mouse_Olfactory/adata_RNA_HR.h5ad"
+    group: "Mouse_Olfactory"
+
+  Spa_Human_Breast_Cancer:
+    name: "Spa Human Breast Cancer"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Spa_Human_Breast_Cancer/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Spa_Human_Breast_Cancer/adata_RNA_HR.h5ad"
+    group: "Spa_Multi_omics"
+    
+  Human_Glioblastoma:
+    name: "Human Glioblastoma"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Glioblastoma/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Glioblastoma/adata_RNA_HR.h5ad"
+    group: "Spa_Multi_omics"
+    
+  Human_Tonsil:
+    name: "Human Tonsil"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Tonsil/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Tonsil/adata_RNA_HR.h5ad"
+    group: "Spa_Multi_omics"
+    
+  Human_Tonsil_AddOns:
+    name: "Human Tonsil with Add-on Antibodies"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Tonsil_AddOns/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/Human_Tonsil_AddOns/adata_RNA_HR.h5ad"
+    group: "Spa_Multi_omics"
+
+  MouseBrain_P7_bin50:
+    name: "Mouse Brain P7 Section1 Bin50"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MouseBrain_P7/bin50/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MouseBrain_P7/bin50/adata_RNA_HR.h5ad"
+    group: "MouseBrain_P7"
+
+  MouseBrain_P7_singlecell:
+    name: "Mouse Brain P7 Section1 SingleCell"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MouseBrain_P7/singlecell/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MouseBrain_P7/singlecell/adata_RNA_HR.h5ad"
+    group: "MouseBrain_P7"
+
+  MouseBrain_P7_singlecell_subset:
+    name: "Mouse Brain P7 Section1 SingleCell Subset (2500 LR)"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MouseBrain_P7/singlecell_subset/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/MouseBrain_P7/singlecell_subset/adata_RNA_HR.h5ad"
+    group: "MouseBrain_P7_subset"
+
+  SZPH_F24_00288:
+    name: "SZPH F24-00288"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/SZPH/F24-00288/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/SZPH/F24-00288/adata_RNA_HR.h5ad"
+    group: "SZPH"
+
+  SZPH_F24_00288_subset:
+    name: "SZPH F24-00288 Subset (2500 LR)"
+    lr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/SZPH/F24-00288_subset/adata_RNA_LR_ks4.h5ad"
+    hr_path: "/home/hxl/Spa_Multi-omics/Data/Datasets_SRast/SZPH/F24-00288_subset/adata_RNA_HR.h5ad"
+    group: "SZPH_subset"
+
+dataset_groups:
+  HLN:
+    - HLN_A1
+    - HLN_D1
+    
+  Mouse_Thymus:
+    - Mouse_Thymus_1
+    - Mouse_Thymus_2
+    - Mouse_Thymus_3
+    - Mouse_Thymus_4
+    
+  Mouse_Brain:
+    - Mouse_Brain_ATAC
+    - Mouse_Brain_H3K4me3
+    - Mouse_Brain_H3K27ac
+    - Mouse_Brain_H3K27me3
+    
+  HT:
+    - HT_slice1
+    - HT_slice2
+    - HT_slice3
+    
+  MISAR_S1:
+    - MISAR_S1_E11
+    - MISAR_S1_E13
+    - MISAR_S1_E15
+    - MISAR_S1_E18
+    
+  MISAR_S2:
+    - MISAR_S2_E11
+    - MISAR_S2_E13
+    - MISAR_S2_E15
+    - MISAR_S2_E18
+    
+  MISAR:
+    - MISAR_S1_E11
+    - MISAR_S1_E13
+    - MISAR_S1_E15
+    - MISAR_S1_E18
+    - MISAR_S2_E11
+    - MISAR_S2_E13
+    - MISAR_S2_E15
+    - MISAR_S2_E18
+    
+  Mouse_Spleen:
+    - Mouse_Spleen_1
+    - Mouse_Spleen_2
+    
+  CRC:
+    - CRC_s6_rep1
+    - CRC_s6_rep2
+    
+  TNBC:
+    - TNBC_CID4290
+    - TNBC_CID4465
+    - TNBC_CID44971
+    - TNBC_CID4535
+    - TNBC_1142243F
+    - TNBC_1160920F
+
+  DLPFC:
+    - DLPFC_151507
+    - DLPFC_151508
+    - DLPFC_151509
+    - DLPFC_151510
+    - DLPFC_151669
+    - DLPFC_151670
+    - DLPFC_151671
+    - DLPFC_151672
+    - DLPFC_151673
+    - DLPFC_151674
+    - DLPFC_151675
+    - DLPFC_151676
+    
+  New_ST_Data:
+    - DLPFC_151507
+    - DLPFC_151508
+    - DLPFC_151509
+    - DLPFC_151510
+    - DLPFC_151669
+    - DLPFC_151670
+    - DLPFC_151671
+    - DLPFC_151672
+    - DLPFC_151673
+    - DLPFC_151674
+    - DLPFC_151675
+    - DLPFC_151676
+    - Mouse_Brain_Anterior
+    - Human_Breast_Cancer
+    - Human_Lymph_Node_New
+    - Mouse_Olfactory
+
+  Spa_Multi_omics:
+    - Spa_Human_Breast_Cancer
+    - Human_Glioblastoma
+    - Human_Tonsil
+    - Human_Tonsil_AddOns
+
+  SZPH:
+    - SZPH_F24_00288
+    - SZPH_F24_01123
+    - SZPH_F24_02084
+    - SZPH_F24_05091
+
+  ALL:
+    - HLN_A1
+    - HLN_D1
+    - Mouse_Thymus_1
+    - Mouse_Thymus_2
+    - Mouse_Thymus_3
+    - Mouse_Thymus_4
+    - Mouse_Brain_ATAC
+    - Mouse_Brain_H3K4me3
+    - Mouse_Brain_H3K27ac
+    - Mouse_Brain_H3K27me3
+    - HT_slice1
+    - HT_slice2
+    - HT_slice3
+    - MISAR_S1_E11
+    - MISAR_S1_E13
+    - MISAR_S1_E15
+    - MISAR_S1_E18
+    - MISAR_S2_E11
+    - MISAR_S2_E13
+    - MISAR_S2_E15
+    - MISAR_S2_E18
+    - Mouse_Spleen_1
+    - Mouse_Spleen_2
+
+    - CRC_s6_rep1
+    - CRC_s6_rep2
+    - TNBC_CID4290
+    - TNBC_CID4465
+    - TNBC_CID44971
+    - TNBC_CID4535
+    - TNBC_1142243F
+    - TNBC_1160920F
+
+    - DLPFC_151507
+    - DLPFC_151508
+    - DLPFC_151509
+    - DLPFC_151510
+    - DLPFC_151669
+    - DLPFC_151670
+    - DLPFC_151671
+    - DLPFC_151672
+    - DLPFC_151673
+    - DLPFC_151674
+    - DLPFC_151675
+    - DLPFC_151676
+    - Mouse_Brain_Anterior
+    - Human_Breast_Cancer
+    - Human_Lymph_Node_New
+    - Mouse_Olfactory
+
+    - Spa_Human_Breast_Cancer
+    - Human_Glioblastoma
+    - Human_Tonsil
+    - Human_Tonsil_AddOns

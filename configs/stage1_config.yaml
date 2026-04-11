@@ -1,0 +1,79 @@
+
+data_config: "configs/data_config_4x.yaml"
+
+data_scale: "4x"
+
+training_datasets: "ALL"
+
+preprocessing:
+  normalize: true
+  log1p: true
+
+downsampling:
+  ks: 4
+  method: "spatial_clustering"
+  use_pregenerated: true
+
+pca:
+  n_components: 50
+  random_state: 42
+
+hvg:
+  n_genes: 3000
+
+  source: "hr"
+graph:
+  spatial_k: 6
+  feature_k: 20
+  use_union: true
+
+graphvae:
+
+  input_dim: 50
+  hidden_dim: 128
+  latent_dim: 128
+  encoder_layers: 3
+  decoder_layers: 3
+  decoder_hidden_dims: [256, 512, 1024]
+  gat_heads: 4
+  dropout: 0.1
+  
+  use_latent_norm: true
+  latent_norm_momentum: 0.1
+  
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  epochs: 1000
+  batch_size: null
+  early_stopping_patience: 50
+  
+  recon_weight: 1.0
+  kl_weight: 0
+  cosine_weight: 0
+  pcc_weight: 0
+  pcc_gene_weight: 0
+  pcc_spot_weight: 0
+  
+  scheduler_factor: 0.5
+  scheduler_patience: 10
+  
+  grad_clip_max_norm: 1.0
+
+training:
+  device: "cuda"
+  seed: 2026
+  num_workers: 4
+  save_every: 50
+  log_every: 10
+  
+  minibatch_threshold: 30000
+  target_cluster_size: 2000
+  minibatch_clusters: 1
+  gradient_accumulation: 4
+  use_amp: true
+
+paths:
+
+  output_dir: "checkpoints/stage1"
+  log_dir: "logs/stage1"
+
