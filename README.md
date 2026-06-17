@@ -22,6 +22,16 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+GPU inference requires a CUDA-enabled PyTorch installation. Check GPU access with:
+
+```bash
+python - <<'PY'
+import torch
+print(torch.cuda.is_available())
+print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu")
+PY
+```
+
 ## Data Configuration
 
 Edit dataset paths in:
@@ -31,6 +41,35 @@ Edit dataset paths in:
 Each dataset should provide:
 - `lr_path`: low-resolution `.h5ad`
 - `hr_path`: high-resolution `.h5ad`
+
+## Release Weights
+
+Pretrained flow-matching checkpoint:
+
+- 4x: `chechpoints/flow_matching_model.pt`
+
+The checkpoint already stores `n_genes`, `latent_dim`, `flow_config`, and `model_state_dict`, so `inference.py` can rebuild the model automatically.
+
+## Release Inference
+
+The inference script needs Stage 1 latent outputs and preprocessors under `stage1_dir`.
+Set `stage1_dir` in `configs/stage2_config.yaml` to the directory containing Stage 1 outputs, such as `checkpoints/stage1`.
+
+4x example:
+
+```bash
+python inference.py \
+  --config configs/stage2_config.yaml \
+  --model_path chechpoints/flow_matching_model.pt \
+  --sample_id HLN_A1 \
+  --num_steps 50 \
+  --device cuda \
+  --output_dir results/open_release_tests/4x_numsteps50
+```
+
+Test all configured samples with `--test_all`. Add `--save_predictions` or `--save_h5ad` to export outputs.
+
+
 
 ## Run Stage 1
 

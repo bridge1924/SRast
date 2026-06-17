@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-06-17T16:47:48.475407",
+  "model_path": "/home/hxl/SRast_v5/results/experiments/4x/checkpoints/flow_matching_model.pt",
+  "results": {
+    "HLN_A1": {
+      "metrics": {
+        "pcc": 0.8617323029445456,
+        "spearman": 0.6032331269823877,
+        "rmse": 1.9149187803268433,
+        "mae": 0.17821960151195526,
+        "snr": 5.827384877914719,
+        "ssim": 0.8974644153189781,
+        "spot_pcc": 0.9394583954156525,
+        "gene_pcc": 0.497472444571342,
+        "fractional_deviation": 2.1082711031531028e-08,
+        "js_divergence": 2.623818518496927e-06,
+        "js_divergence_gene": 0.11669265443856511
+      },
+      "n_hr_spots": 3484,
+      "n_lr_spots": 871
+    }
+  },
+  "average": {
+    "pcc": 0.8617323029445456,
+    "spearman": 0.6032331269823877,
+    "rmse": 1.9149187803268433,
+    "mae": 0.17821960151195526,
+    "gene_pcc": 0.497472444571342,
+    "spot_pcc": 0.9394583954156525,
+    "snr": 5.827384877914719,
+    "ssim": 0.8974644153189781,
+    "fractional_deviation": 2.1082711031531028e-08,
+    "js_divergence": 2.623818518496927e-06,
+    "js_divergence_gene": 0.11669265443856511
+  }
+}
